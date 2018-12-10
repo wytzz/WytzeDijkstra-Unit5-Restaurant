@@ -1,4 +1,4 @@
-# WytzeDijkstra-Unit5-Restaurant
+# WytzeDijkstra Unit 5 Restaurant
 Via deze app kun je gerechten bestellen. Op de eerste pagina is wordt er een mogelijkheid gegeven om te kiezen tussen Appetizers en Entrees.
 Wanneer een van de twee is gekozen worden er gerechten getoond met een prijs en afbeelding, er kan op een gerecht geklikt worden om meer details te zien.
 Op de gedetailleerde pagina kan er ook worden gekozen om het gerecht te bestellen, deze wordt dat geplaatst in de order lijst.
