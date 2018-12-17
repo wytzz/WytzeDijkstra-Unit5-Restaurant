@@ -84,6 +84,7 @@
                                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="placeholder" id="YNg-lX-n0J">
                                             <rect key="frame" x="16" y="0.0" width="44" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
@@ -177,7 +178,7 @@
             </objects>
             <point key="canvasLocation" x="2953" y="127"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Orders-->
         <scene sceneID="0n4-DR-hft">
             <objects>
                 <tableViewController id="Rda-De-1cR" customClass="OrderTableViewController" customModule="Restaurant" customModuleProvider="target" sceneMemberID="viewController">
@@ -220,7 +221,7 @@
                             <outlet property="delegate" destination="Rda-De-1cR" id="4c3-MZ-Eoz"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="MzG-q6-J2A">
+                    <navigationItem key="navigationItem" title="Orders" id="MzG-q6-J2A">
                         <barButtonItem key="rightBarButtonItem" title="Submit" id="lUu-DF-KQ7">
                             <connections>
                                 <action selector="submitTapped:" destination="Rda-De-1cR" id="KnY-ge-rSA"/>
